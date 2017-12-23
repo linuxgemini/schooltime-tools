@@ -1,0 +1,20 @@
+{
+  "name": "simplewebserver",
+  "version": "0.0.1",
+  "maintainers": [
+    "linuxgemini (ilteris@asenkron.com.tr)"
+  ],
+  "author": "linuxgemini",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linuxgemini/schooltime-tools.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.6.2",
+    "serve-static": "^1.12.3"
+  },
+  "scripts": {
+    "start": "node main.js"
+  }
+}
